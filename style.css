@@ -4,24 +4,35 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.header, .container {
-    background-color: gray;
+    background-color: #1F2937;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 16px;
+    margin-left: 120px;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .links {
     display: flex;
-    gap: 8px;
+    gap: 16px;
+    margin-right: 50px;
+}
+
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
 }
 
 .container {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
 }
 
 .website {
@@ -29,7 +40,29 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-left: 100px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.website div {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    max-width: 400px;
+}
+
+.website p {
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 400px;
+}
+
+.website button {
+    color: white;
+    background-color: #3882f6;
+    padding: 5px 20px 5px;
+    border-radius: 8px;
+    border: 0px;
 }
 
 .picture {
@@ -37,10 +70,19 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .container img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.container2, .info {
+    background-color: white;
+}
+
+.container2 {
+    padding-bottom: 70px;
 }
 
 .info {
@@ -48,29 +90,87 @@ body {
     justify-content: center;
     align-items: center;
     padding: 32px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
 }
 
 .boxes {
     display: flex;
-    justify-content: space-around;
-    padding: 32px;
+    justify-content: center;
+    gap: 16px;
+}
+
+.boxes img {
+    width: 150px;
+    height: auto;
 }
 
 .description {
     display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.description div {
+    max-width: 140px;
 }
 
 .quote {
-    background-color: beige;
+    background-color: #e5e7eb;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding: 80px;
 }
+
 .quote p {
-    max-width: 500px;
+    max-width: 800px;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote span {
+    margin-left: 500px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .footerup {
     display: flex;
     flex-direction: column;
+    background-color: #3882F6;
+    align-items: center;
+    padding: 32px 60px 32px;
+}
+
+.outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+}
+
+.signup div {
+    display: flex;
+    gap: 150px;
+}
+
+.signup button {
+    padding: 2px 25px 2px;
+    background-color: #3882f6;
+    border-color: white;
+    color: white;
+    border-radius: 6px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: #1F2937;
+    color: white;
 }
